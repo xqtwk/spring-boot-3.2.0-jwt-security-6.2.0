@@ -13,5 +13,5 @@ If you want to use the same thing as me:
 `` docker run --name postgres-db
 -e POSTGRES_DB=YOURDBNAME -e POSTGRES_USER=YOURUSERNAME -e POSTGRES_PASSWORD=YOURPASSWORD -p 5432:5432 -d postgres
    ``
-4. Configure application.yml (I commended where and what you should put)
+4. Configure application.yml (I commented where and what you should put)
 5. Add your database as datasource in your IDE
