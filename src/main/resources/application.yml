@@ -3,9 +3,9 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/DBNAME
-    username: YOURDBUSERNAME
-    password: YOURDBPASSWORD
+    url: jdbc:postgresql://localhost:5432/YOURDBNAME # CHANGE IT
+    username: YOURUSERNAME # CHANGE IT
+    password: YOURPASSWORD # CHANGE IT
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
@@ -21,7 +21,7 @@ spring:
 application:
   security:
     jwt:
-      secret-key: !!!GENERATEYOUROWNSECRETKEY!!! # EXAMPLE F51836B87EEF55C18A0A33EB8E79B217B77FD3C7F78CE65117ED1F19022BEA0A
+      secret-key: GENERATEYOUROWNSECRETKEY # CHANGE IT, EXAMPLE: F51836B87EEF55C18A0A33EB8E79B217B77FD3C7F78CE65117ED1F19022BEA0A
       expiration: 86400000 # a day(24h)
       refresh-token:
         expiration: 604800000 # 7 days(168h)
