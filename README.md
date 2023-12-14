@@ -6,7 +6,7 @@ Spring Security version: 6.2.0
 Don't forget to configure application.yml by your needs! <br>
 
 
-If you want to use the same thing as me:
+How to run this thing:
 1. Install Docker
 2. Pull PostgreSQL Docker image via ``docker pull postgres``
 3. Run a PostgreSQL container with your desired database name, username and password: <br>
@@ -15,3 +15,4 @@ If you want to use the same thing as me:
    ``
 4. Configure application.yml (I commented where and what you should put)
 5. Add your database as datasource in your IDE
+6. Start the application
