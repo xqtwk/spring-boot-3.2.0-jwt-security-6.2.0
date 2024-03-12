@@ -1,6 +1,6 @@
 Sort of template of application with configured spring security via jwt. <br>
 Spring boot version: 3.2.0 <br>
-Spring Security version: 6.2.2
+Spring Security version: 6.2.0
 
 
 Don't forget to configure application.yml by your needs! <br>
